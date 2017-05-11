@@ -29,6 +29,7 @@ class Item
   
   void Display()
   {
+    fill(255);
     if(this.Type == ItemType.Block)
     {
       rect(this.P1.X, this.P1.Y, this.Width, this.Height);
